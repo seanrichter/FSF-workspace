@@ -2,7 +2,7 @@ var Sequelize = require("sequelize");
 
 var sequelize = new Sequelize("authors_test", "root", "Guitarsmr1014Stella",
     {
-        host: "loacalhost",
+        host: "localhost",
         prot: 3306,
         dialect: "mysql",
         pool: {
